@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*RESET*/
+*{margin: 0; padding: 0; font-size: 100%; box-sizing:border-box;}
+nav, ul{list-style: none;}
+a{text-decoration: none; cursor: pointer; opacity: 0.9;}
+a:hover{opacity: 1;}
+p, input, textarea, header {font-family: 'Josefin Sans', sans-serif;}
+
+/*FONTES*/
+@font-face {font-family:'multicolore'; src:url(Multicolore.otf) format('truetype'); }
+/*FIM FONTES*/
+
+/*BODY*/
+body {
+    background-image: url(country-quilt-dark.png);
+	font-family: 'multicolore', sans-serif;
+}
+/*HEADER*/
+header {
+	background-image: url(country-quilt-dark.png);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    z-index: 100;
+}
+header img {
+	width: 180px;
+}
+header nav ul {
+	display: flex;
+}
+header li a {
+	color: #f7af0f;
+	text-decoration:none;
+	font-size:13px;
+	text-transform:uppercase;
+    padding:3px;
+    font-weight: 400;
+}
+header li a:hover {
+	color: #0686ef;
+}
+header li {
+    margin: 0 15px;
+}
+header li:first-child {
+    margin-left: 0;
+}
+header li:last-child {
+    margin-right: 0;
+}
+/*BANNER*/
+.fitness {
+    background-image: url(777.jpg);
+	background-size: cover;
+	background-position: center;
+    min-height: 120vh;
+    color: #f7af0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.fitness h1 { 
+    font-size: 5rem;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    text-transform: uppercase;
+    color: #0686ef;
+}
+.fitness h2 { 
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.fitness h3 { 
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*FT FITNESS*/
+.caracteristicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 50px;
+}
+.caracteristicas h1 {
+    font-size: 2rem;
+    margin-bottom: 35px;;
+    color: #f7af0f;
+    text-align: center;
+    text-transform: uppercase;
+}
+.caracteristicas p {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.caracteristicas .grid { 
+    width: 100%;
+    display: flex;
+}
+.caracteristicas .grid li {
+    padding: 0 30px;
+    text-align: center;
+}
+.caracteristicas .grid li i {
+    color: #f7af0f;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.caracteristicas .grid li h4 {
+    font-style: 1.5rem;
+    color: #0686ef;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.caracteristicas .grid li p {
+    font-size: 1.2rem;
+}
+/*ASSESSORIA*/
+.imagens {background-image: url(blackorchid.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.imagens .imgs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagens h1 {
+    font-size: 2.5rem;
+    margin-bottom: 35px;;
+    color: #0686ef;
+    text-align: center;
+}
+.imagens hr {
+    width: 500px;
+    height: 1px;
+    margin-bottom: 70px;
+    background-color: #f7af0f;
+    border: none;
+}
+.imagens p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #fff;
+}
+.imagens .imgs li {
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.imagens .imgs li h2 {
+    color: #f7af0f;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 5px 0;
+}
+.imagens .imgs li.menor {
+    flex-basis: 40%;
+}
+.imagens .imgs li.maior {
+    flex-basis: 60%;
+}
+.imagens .imgs li.spin {
+    background-position: initial;
+}
+
+/*CONTATO*/
+.contato {background-image: url(linedpaper.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px;
+    width: 100%;
+}
+.contato h3 {
+    font-size: 3rem;
+    margin-bottom: 35px;;
+    color: #0686ef;
+    text-align: center;
+    width: 40%;
+    padding: 15px;
+}
+.contato form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    max-width: 800px;
+    border: 1px solid #fff;
+    align-items: center;
+    padding: 15px;
+}
+.contato input {
+    padding: 15px;
+    border: 2px solid #f7af0f;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.contato input.tel {
+    width: 50%;
+    align-self: baseline;
+    margin-bottom: 25px;
+}
+.contato textarea {
+    padding: 15px;
+    border: 2px solid #f7af0f;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    text-align: left;
+    width: 100%;
+    font-size: 1.2rem;
+    height: 200px;
+}
+.contato button {
+    padding: 20px;
+    background-color: #0686ef;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+    align-self: flex-end;
+    margin: 15px 0;
+}
+/*RODAPÉ*/
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    margin-right: 20px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+}
+footer ul li a {
+    color: #f7af0f;
+    font-size: 1.3rem;
+}
+footer p {
+    color:#0686ef ;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.8rem;
+}
+/*FIM RODAPÉ*/
+
+/*BREAKPOINTS*/
+@media (max-width:1200px) {
+    .contato form {
+        width: 50%;
+    }
+    .fitness {
+        background-position: initial;
+        min-height: 80vh;
+    }
+}
+@media (max-width:850px) {
+    .imagens {
+        padding: 50px;
+    }
+    .imagens h1 {
+        font-size: 2rem;
+    }
+    .imagens hr {
+        width: 400px;
+    }
+    .imagens .imgs li.menor,   .imagens .imgs li.maior {
+        flex-basis: 100%;
+    }
+    .imagens .imgs li.musc {
+        background-position: top;
+    }
+    .imagens .imgs li h2 {
+        font-size: 2rem;
+    }
+    .caracteristicas .grid { 
+        flex-direction: column;
+    }   
+    .contato form {
+        width: 70%;
+    }
+}
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        margin-bottom: 30px;
+    }
+    .fitness h1 {
+        font-size: 3rem;
+    }
+    .fitness h2 {
+        font-size: 1.5rem;
+    }
+    .fitness h3 {
+        font-size: 1.7rem;
+    }
+    .imagens h1 {
+        font-size: 1.5rem;
+    }
+    .imagens hr {
+        width: 300px;
+    }
+    .contato form {
+        width: 80%;
+    }
+    .contato h3 {
+        font-size: 2rem;
+    }
+    .caracteristicas h1 {
+        font-size: 1.8rem;
+    }
+    .caracteristicas p {
+        font-size: 1.5rem;
+    }
+}
