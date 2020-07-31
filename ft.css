@@ -15,7 +15,8 @@ p, input, textarea, header {font-family: 'Josefin Sans', sans-serif;}
 /*BODY*/
 body {
     background-image: url(country-quilt-dark.png);
-	font-family: 'multicolore', sans-serif;
+    font-family: 'multicolore', sans-serif;
+    overflow-x: hidden;
 }
 /*HEADER*/
 header {
@@ -214,7 +215,6 @@ header li:last-child {
     flex-direction: column;
     width: 40%;
     max-width: 800px;
-    border: 1px solid #fff;
     align-items: center;
     padding: 15px;
 }
@@ -285,15 +285,27 @@ footer p {
 
 /*BREAKPOINTS*/
 @media (max-width:1200px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        margin-bottom: 30px;
+    }
     .contato form {
         width: 50%;
     }
     .fitness {
         background-position: initial;
-        min-height: 80vh;
+        min-height: 90vh;
     }
 }
 @media (max-width:850px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        margin-bottom: 30px;
+    }
     .imagens {
         padding: 50px;
     }
@@ -319,7 +331,7 @@ footer p {
         width: 70%;
     }
 }
-@media (max-width:700px) {
+@media (max-width:600px) {
     header {
         flex-direction: column;
     }
@@ -335,12 +347,27 @@ footer p {
     .fitness h3 {
         font-size: 1.7rem;
     }
+    .imagens {
+        padding: 50px;
+    }
     .imagens h1 {
         font-size: 1.5rem;
     }
     .imagens hr {
         width: 300px;
     }
+    .imagens .imgs li.menor,   .imagens .imgs li.maior {
+        flex-basis: 100%;
+    }
+    .imagens .imgs li.musc {
+        background-position: top;
+    }
+    .imagens .imgs li h2 {
+        font-size: 2rem;
+    }
+    .caracteristicas .grid { 
+        flex-direction: column;
+    }   
     .contato form {
         width: 80%;
     }
