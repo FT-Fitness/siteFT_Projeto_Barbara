@@ -2,13 +2,7 @@
 /* CSS Document */
 
 /*BREAKPOINTS*/
-@media screen and (max-width:600px) {
-    header {
-        flex-direction: column;
-    }
-    header img {
-        margin-bottom: 30px;
-    }
+@media (max-width:600px) {
     .fitness h1 {
         font-size: 3rem;
     }
@@ -19,23 +13,11 @@
         font-size: 1.5rem;
         margin: 0 40px;
     }
-    .imagens {
-        padding: 50px;
-    }
     .imagens h1 {
         font-size: 1.5rem;
     }
     .imagens hr {
         width: 300px;
-    }
-    .imagens .imgs li.menor,   .imagens .imgs li.maior {
-        flex-basis: 100%;
-    }
-    .imagens .imgs li.musc {
-        background-position: top;
-    }
-    .imagens .imgs li h2 {
-        font-size: 2rem;
     }
     .caracteristicas .grid { 
         flex-direction: column;
@@ -76,10 +58,13 @@
     .imagens hr {
         width: 400px;
     }
-    .imagens .imgs li.menor,   .imagens .imgs li.maior {
+    .imagens .imgs li {
+        height: 450px;
+    }
+    .imagens .imgs li.menor, .imagens .imgs li.maior {
         flex-basis: 100%;
     }
-    .imagens .imgs li.musc {
+    .imagens .imgs li.musc, .imagens .imgs li.along {
         background-position: top;
     }
     .imagens .imgs li h2 {

@@ -95,14 +95,14 @@ header li:last-child {
     padding: 200px 50px;
 }
 .caracteristicas h1 {
-    font-size: 2rem;
-    margin-bottom: 35px;;
+    font-size: 2.5rem;
+    margin: 100px 0 35px 0;
     color: #f7af0f;
     text-align: center;
     text-transform: uppercase;
 }
 .caracteristicas p {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #fff;
     text-align: center;
     margin-bottom: 100px;
@@ -134,16 +134,11 @@ header li:last-child {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
-}
-.imagens .imgs {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 120px;
 }
 .imagens h1 {
-    font-size: 2.5rem;
-    margin-bottom: 35px;;
+    font-size: 3rem;
+    margin: 100px 0 35px 0;
     color: #0686ef;
     text-align: center;
 }
@@ -159,6 +154,11 @@ header li:last-child {
     margin-bottom: 35px;
     text-align: center;
     color: #fff;
+}
+.imagens .imgs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .imagens .imgs li {
     height: 350px;
@@ -282,3 +282,4 @@ footer p {
     font-size: 0.8rem;
 }
 /*FIM RODAPÉ*/
+
