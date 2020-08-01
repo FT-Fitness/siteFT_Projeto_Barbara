@@ -46,19 +46,13 @@
     .contato h3 {
         font-size: 2rem;
     }
-    .caracteristicas h1 {
-        font-size: 1.8rem;
-    }
-    .caracteristicas p {
-        font-size: 1.5rem;
-    }
 }
 @media (max-width:1200px) {
     header img {
-        width: 300px;
+        width: 400px;
     }
     header li a {
-        font-size:16px;
+        font-size:18px;
     }
     header {
         flex-direction: column;
@@ -95,6 +89,6 @@
         flex-direction: column;
     }   
     .contato form {
-        width: 70%;
+        width: 60%;
     }
 }
