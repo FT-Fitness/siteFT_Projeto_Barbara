@@ -7,7 +7,7 @@
         width: 400px;
     }
     header li a {
-        font-size:18px;
+        font-size:20px;
     }
     header {
         flex-direction: column;
@@ -40,6 +40,12 @@
     }
 }
 @media (max-width:1200px) {
+    header img {
+        width: 400px;
+    }
+    header li a {
+        font-size:20px;
+    }
     header img {
         margin-bottom: 30px;
     }
