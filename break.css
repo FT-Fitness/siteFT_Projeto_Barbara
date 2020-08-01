@@ -2,22 +2,11 @@
 /* CSS Document */
 
 /*BREAKPOINTS*/
-@media (max-width:1200px) {
-    header {
-        flex-direction: column;
-    }
-    header img {
-        margin-bottom: 30px;
-    }
-    .contato form {
-        width: 50%;
-    }
+@media screen and (max-width:850px) {
     .fitness {
         background-position: initial;
         min-height: 90vh;
     }
-}
-@media screen and (max-width:850px) {
     header {
         flex-direction: column;
     }
