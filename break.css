@@ -79,11 +79,32 @@
     .imagens .imgs li h2 {
         font-size: 2rem;
     }
+
+    .escola {
+        padding: 20px 50px;
+    }
+    .escola h1 {
+        font-size: 1.8rem;
+        margin: 10px 20px;
+    }
+    .escola .imgs li {
+        height: 450px;
+    }
+    .escola .imgs li.menor, .escola .imgs li.maior {
+        flex-basis: 100%;
+    }
+    .escola .imgs li h2 {
+        font-size: 2rem;
+    }
+    .caracteristicas h1 {
+        margin-top: 130px;
+        font-size: 2rem;
+    }
     .caracteristicas .grid { 
         flex-direction: column;
     }   
     .contato h3 {
-        margin-top: 100px;
+        margin-top: 115px;
     }
     .contato form {
         width: 60%;
