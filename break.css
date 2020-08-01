@@ -3,6 +3,15 @@
 
 /*BREAKPOINTS*/
 @media (max-width:600px) {
+    header img {
+        width: 400px;
+    }
+    header li a {
+        font-size:18px;
+    }
+    header {
+        flex-direction: column;
+    }
     .fitness h1 {
         font-size: 3rem;
     }
@@ -15,6 +24,7 @@
     }
     .imagens h1 {
         font-size: 1.5rem;
+        margin-top: 100px;
     }
     .imagens hr {
         width: 300px;
@@ -30,15 +40,6 @@
     }
 }
 @media (max-width:1200px) {
-    header img {
-        width: 400px;
-    }
-    header li a {
-        font-size:18px;
-    }
-    header {
-        flex-direction: column;
-    }
     header img {
         margin-bottom: 30px;
     }
@@ -64,7 +65,7 @@
     .imagens .imgs li.menor, .imagens .imgs li.maior {
         flex-basis: 100%;
     }
-    .imagens .imgs li.musc, .imagens .imgs li.along {
+    .imagens .imgs li.musc {
         background-position: top;
     }
     .imagens .imgs li h2 {
