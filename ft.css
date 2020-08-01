@@ -226,6 +226,7 @@ header li:last-child {
     text-align: left;
     width: 100%;
     font-size: 1.2rem;
+    opacity: 0.8;
 }
 .contato input.tel {
     width: 50%;
@@ -241,6 +242,7 @@ header li:last-child {
     width: 100%;
     font-size: 1.2rem;
     height: 200px;
+    opacity: 0.8;
 }
 .contato button {
     padding: 20px;
