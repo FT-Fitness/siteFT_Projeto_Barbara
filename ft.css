@@ -31,7 +31,7 @@ header {
     z-index: 100;
 }
 header img {
-	width: 180px;
+    width: 180px;
 }
 header nav ul {
 	display: flex;
@@ -48,7 +48,7 @@ header li a:hover {
 	color: #0686ef;
 }
 header li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 header li:first-child {
     margin-left: 0;
@@ -113,7 +113,7 @@ a.top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 120px 50px;
+    padding: 150px 50px 100px 50px;
 }
 .caracteristicas h1 {
     font-size: 3.8rem;
@@ -123,7 +123,7 @@ a.top {
     text-transform: uppercase;
 }
 .caracteristicas p {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #ccc;
     text-align: center;
     margin-bottom: 100px;
@@ -148,7 +148,7 @@ a.top {
     text-transform: uppercase;
 }
 .caracteristicas .grid li p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 /*ASSESSORIA*/
 .imagens {background-image: url(blackorchid.png);

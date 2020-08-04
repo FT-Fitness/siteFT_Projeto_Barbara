@@ -5,11 +5,12 @@
 @media (max-width:1200px) {
     header {
         flex-direction: column;
-        background-position: inherit;
+        position: inherit;
+        padding: 20px;
     }
     header img {
         width: 500px;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
     }
     header ul {
         margin-bottom: 20px;
@@ -23,7 +24,7 @@
     .fitness {
         background-position: initial;
         min-height: 80vh;
-        margin-top: 280px;
+        margin-top: 00px;
     }
     .fitness h1 {
         font-size: 4.8rem;
