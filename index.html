@@ -91,9 +91,9 @@
 <section class="contato" id="contato">
   <h3>Contato</h3>
   <form>
-    <input type="text" placeholder="Nome">
-    <input type="text" placeholder="E-mail">
-    <input type="tel" class="tel" id="tel" placeholder="Telefone">
+    <input type="text" placeholder="Nome" required>
+    <input type="email" placeholder="E-mail" required>
+    <input  pattern="^\d{5}-\d{4}$" type="tel" class="tel" id="tel" placeholder="Telefone">
     <textarea placeholder="Escreva sua mensagem aqui"></textarea>
     <button onclick="enviou()">Enviar</button>
   </form>
