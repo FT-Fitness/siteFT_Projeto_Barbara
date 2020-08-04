@@ -17,9 +17,9 @@
 <a href="index.html" class="logo"><img src="FT.svg" id="logo" alt="FT Fitness" title="FT Fitness"/></a>  
 
 <!--MENU-->
-<nav class="nav">
+<nav class="nav" id="nav">
   <ul class="lista">
-    <li><a href="index.html">Home</a></li>
+    <li><a id="home" href="index.html">Home</a></li>
     <li><a href="#about">FT FITNESS</a></li>
     <li><a href="#imagens">Assessoria</a></li>
     <li><a href="#contato">Contato</a></li>
@@ -31,9 +31,14 @@
 <section class="fitness">
   <h1>FT Fitness</h1>
   <h2>Assessoria Esportiva</h2>
-  <h3>Seu porto seguro na busca por qualidade de vida</h3>
+  <h3>Seu porto seguro na busca por <span>qualidade de vida</span></h3>
 </section>
 
+<!--BOTAO VOLTAR AO TOPO-->
+<section class="top">
+  <a href="#top" class="top"><i class="fas fa-angle-double-up"></i></a>
+  </section>
+  
 <!--FT FITNESS-->
 <section class="caracteristicas" id="about">
   <h1>Nosso prazer é a sua satisfação</h1>
@@ -88,23 +93,48 @@
   <form>
     <input type="text" placeholder="Nome">
     <input type="text" placeholder="E-mail">
-    <input type="tel" class="tel" placeholder="Telefone">
+    <input type="tel" class="tel" id="tel" placeholder="Telefone">
     <textarea placeholder="Escreva sua mensagem aqui"></textarea>
-    <button>Enviar</button>
+    <button onclick="enviou()">Enviar</button>
   </form>
 </section>
 
+<section class="contato2">
+  <ul class="grid">
+      <li class="phone">
+          <i class="fas fa-phone"></i>
+          <p> (21) 90000-0000</p>
+      </li>
+      <li>
+          <i class="fas fa-envelope"></i>
+           <p>ft.fitness.assessoria@gmail.com</p>     
+      </li>
+      <li class="clock">
+          <i class="far fa-clock"></i>
+          <p>Agende um Horário</p>
+      </li>         
+  </ul>
+</section>   
 <!--RODAPE-->
 <footer>
   <ul>
-      <li><a><i class="fab fa-facebook-f"></i></a></li>
-      <li><a><i class="fab fa-twitter"></i></a></li>
-      <li><a><i class="fab fa-snapchat-ghost"></i></a></li>
-      <li><a><i class="fab fa-pinterest-p"></i></a></li>
       <li><a><i class="fab fa-instagram"></i></a></li>
+      <li><a><i class="fab fa-facebook-f"></i></a></li>
+      <li><a><i class="fab fa-whatsapp"></i></a></li>
+      <li><a><i class="fab fa-facebook-messenger"></i></a></li>
+      <li><a><i class="fab fa-pinterest-p"></i></a></li>
+      
   </ul>
   <p>&copy;2014 - FT Fitness Assessoria Esportiva. Todos os direitos reservados.</p>
 </footer>
-
 </body>
+
+<!--jQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+<!--ACTIVE MENU -->
+<script type="text/javascript" src="scripts.js">
+</script>
+
 </html>

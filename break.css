@@ -2,52 +2,20 @@
 /* CSS Document */
 
 /*BREAKPOINTS*/
-@media (max-width:600px) {
-    header img {
-        width: 400px;
-    }
-    header li a {
-        font-size:20px;
-    }
-    .fitness h1 {
-        font-size: 3rem;
-    }
-    .fitness h2 {
-        font-size: 1.5rem;
-    }
-    .fitness h3 {
-        font-size: 1.5rem;
-        margin: 0 40px;
-    }
-    .imagens h1 {
-        font-size: 1.5rem;
-        margin-top: 100px;
-    }
-    .imagens hr {
-        width: 300px;
-    }
-    .caracteristicas .grid { 
-        flex-direction: column;
-    }   
-    .contato form {
-        width: 80%;
-    }
-    .contato h3 {
-        font-size: 2rem;
-    }
-}
-@media (max-width:1200px) {
+@media (max-width:850px) {
     header {
         flex-direction: column;
+        background-position: inherit;
     }
     header img {
-        width: 300px;
+        width: 500px;
+        margin-bottom: 50px;
+    }
+    header ul {
+        margin-bottom: 20px;
     }
     header li a {
-        font-size:18px;
-    }
-    header img {
-        margin-bottom: 30px;
+        font-size:2rem;
     }
     .contato form {
         width: 50%;
@@ -55,17 +23,27 @@
     .fitness {
         background-position: initial;
         min-height: 80vh;
-        margin-top: 150px;
+        margin-top: 280px;
+    }
+    .fitness h1 {
+        font-size: 4.8rem;
+        margin: 10px;
+    }
+    .fitness h2 {
+        font-size: 2.3rem;
+        margin: 10px;
+    }
+    .fitness h3 {
+        margin: 10px;
     }
     .imagens {
         padding: 50px;
     }
     .imagens h1 {
-        font-size: 2rem;
         margin-top: 200px;
     }
     .imagens hr {
-        width: 400px;
+        width: 300px;
     }
     .imagens .imgs li {
         height: 450px;
@@ -79,12 +57,10 @@
     .imagens .imgs li h2 {
         font-size: 2rem;
     }
-
     .escola {
         padding: 20px 50px;
     }
     .escola h1 {
-        font-size: 1.8rem;
         margin: 10px 20px;
     }
     .escola .imgs li {
@@ -98,7 +74,6 @@
     }
     .caracteristicas h1 {
         margin-top: 130px;
-        font-size: 2rem;
     }
     .caracteristicas .grid { 
         flex-direction: column;
@@ -107,6 +82,18 @@
         margin-top: 115px;
     }
     .contato form {
-        width: 60%;
+        width: 80%;
+    }
+    .contato2 .grid { 
+        flex-direction: column;
+    }
+    .contato2 .grid li i {
+        margin-top: 70px;
+    }
+    .contato2 .grid li.clock {
+        margin-bottom: 30px;
+    }
+    .contato2 .grid li.phone {
+        margin-top: -30px;
     }
 }
