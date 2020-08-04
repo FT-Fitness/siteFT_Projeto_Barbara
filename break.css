@@ -3,6 +3,7 @@
 
 /*BREAKPOINTS*/
 @media (max-width:1200px) {
+    /*HEADER*/
     header {
         flex-direction: column;
         position: inherit;
@@ -10,7 +11,7 @@
     }
     header img {
         width: 500px;
-        margin-bottom: 150px;
+        margin:50px;
     }
     header ul {
         margin-bottom: 20px;
@@ -18,13 +19,10 @@
     header li a {
         font-size:2rem;
     }
-    .contato form {
-        width: 50%;
-    }
+    /*BANNER*/
     .fitness {
         background-position: initial;
         min-height: 80vh;
-        margin-top: 00px;
     }
     .fitness h1 {
         font-size: 4.8rem;
@@ -37,11 +35,15 @@
     .fitness h3 {
         margin: 10px;
     }
+    /*BOTAO VOLTAR AO TOPO*/
+    a.top {
+        font-size: 50px;
+        width: 80px;
+        border-radius: 50px;
+    }
+    /*ASSESSORIA*/
     .imagens {
         padding: 50px;
-    }
-    .imagens h1 {
-        margin-top: 200px;
     }
     .imagens hr {
         width: 300px;
@@ -58,6 +60,7 @@
     .imagens .imgs li h2 {
         font-size: 2rem;
     }
+    /*ESCOLINHA*/  
     .escola {
         padding: 20px 50px;
     }
@@ -73,18 +76,15 @@
     .escola .imgs li h2 {
         font-size: 2rem;
     }
-    .caracteristicas h1 {
-        margin-top: 130px;
-    }
+    /*FT FITNESS*/
     .caracteristicas .grid { 
         flex-direction: column;
-    }   
-    .contato h3 {
-        margin-top: 115px;
     }
+    /*CONTATO*/   
     .contato form {
         width: 80%;
     }
+    /*CONTATO2*/  
     .contato2 .grid { 
         flex-direction: column;
     }
