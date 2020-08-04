@@ -258,6 +258,9 @@ a.top {
 .escola .imgs li.fut, .escola .imgs li.futsal {
     background-position: bottom;
 }
+.escola .imgs li.basq {
+    background-position: top;
+}
 /*CONTATO*/
 .contato {background-image: url(blackorchid.png);
     display: flex;
