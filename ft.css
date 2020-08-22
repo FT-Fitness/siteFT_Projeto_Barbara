@@ -1,15 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*FONTE*/
-@font-face {font-family:'multicolore'; src:url(Multicolore.otf) format('truetype'); }
-
 /*RESET*/
-*{margin: 0; padding: 0; font-size: 100%; box-sizing:border-box; font-family: 'multicolore', sans-serif;}
+*{margin: 0; padding: 0; font-size: 100%; box-sizing:border-box;}
 nav, ul{list-style: none;}
 button,  a{text-decoration: none; cursor: pointer; opacity: 0.9;}
 button:hover, a:hover{opacity: 1;}
 p, input, textarea, header {font-family: 'Josefin Sans', sans-serif;}
+
+/*FONTE*/
+@font-face {font-family:'multicolore'; src:url(Multicolore.otf) format('truetype');}
 
 /*BODY*/
 body {
@@ -19,7 +19,7 @@ body {
 }
 /*HEADER*/
 header {
-	background-image: url(country-quilt-dark.png);
+    background-image: url(country-quilt-dark.png);
     width: 100%;
     position: fixed;
     top: 0;
@@ -31,8 +31,7 @@ header {
     z-index: 100;
 }
 header img {
-    width: 180px;
-    font-family: 'multicolore', sans-serif;
+    width: 200px;
 }
 header nav ul {
 	display: flex;
@@ -111,10 +110,10 @@ a.top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 150px 50px 100px 50px;
+    padding: 250px 80px;
 }
 .caracteristicas h1 {
-    font-size: 3.2rem;
+    font-size: 3.3rem;
     margin: 20px 0 35px 0;
     color: #f7af0f;
     text-align: center;
@@ -156,7 +155,7 @@ a.top {
     padding: 120px;
 }
 .imagens h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 15px 0 35px 0;
     color: #0686ef;
     text-align: center;
@@ -180,7 +179,7 @@ a.top {
     flex-wrap: wrap;
 }
 .imagens .imgs li {
-    height: 350px;
+    height: 500px;
     padding: 20px;
     border-radius: 4px;
     background-clip: content-box;
@@ -229,7 +228,7 @@ a.top {
     flex-wrap: wrap;
 }
 .escola .imgs li {
-    height: 450px;
+    height: 500px;
     padding: 20px;
     border-radius: 4px;
     background-clip: content-box;
@@ -271,7 +270,7 @@ a.top {
     width: 100%;
 }
 .contato h3 {
-    font-size: 4rem;
+    font-size: 3.7rem;
     margin-bottom: 35px;;
     color: #0686ef;
     text-align: center;
