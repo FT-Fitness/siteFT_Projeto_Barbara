@@ -63,8 +63,8 @@ header li:last-child {
 /*BANNER*/
 .fitness {
     background-image: url(777.jpg);
-	background-size: cover;
-	background-position: center;
+    background-size: cover;
+    background-position: center;
     min-height: 115vh;
     color: #f7af0f;
     display: flex;
@@ -114,7 +114,7 @@ a.top {
     padding: 150px 50px 100px 50px;
 }
 .caracteristicas h1 {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     margin: 20px 0 35px 0;
     color: #f7af0f;
     text-align: center;
