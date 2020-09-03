@@ -130,7 +130,7 @@ a.top {
     display: flex;
 }
 .caracteristicas .grid li {
-    padding: 0 30px;
+    padding: 0 80px;
     text-align: center;
 }
 .caracteristicas .grid li i {
