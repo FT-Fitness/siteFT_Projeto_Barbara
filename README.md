@@ -3,7 +3,7 @@
 </h1>
 <br>
 
-### Sobre
+### Sobre:
 Logotipo e One page desenvolvidos para uma empresa de assessoria esportiva utilizando CSS Flexible Box Layout.
 
 <br>
